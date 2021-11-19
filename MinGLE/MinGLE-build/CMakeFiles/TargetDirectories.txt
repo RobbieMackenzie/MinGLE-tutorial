@@ -1,0 +1,3 @@
+/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-build/CMakeFiles/rebuild_cache.dir
+/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-build/CMakeFiles/edit_cache.dir
+/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-build/CMakeFiles/MinGLE.dir
