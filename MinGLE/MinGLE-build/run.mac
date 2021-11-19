@@ -1,0 +1,5 @@
+# display applied commands on screen
+/control/verbose 2
+
+# add more menu items in gui
+/control/ifInteractive gui.mac

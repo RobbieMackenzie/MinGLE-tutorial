@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+/home/robmac/G4-install/include/Geant4/G4ApplicationState.hh
+
 /home/robmac/G4-install/include/Geant4/G4EnvironmentUtils.hh
 cstdlib
 -
@@ -72,11 +74,33 @@ G4VUIshell.hh
 map
 -
 
+/home/robmac/G4-install/include/Geant4/G4UIcommandStatus.hh
+
+/home/robmac/G4-install/include/Geant4/G4UImanager.hh
+globals.hh
+/home/robmac/G4-install/include/Geant4/globals.hh
+vector
+-
+fstream
+-
+icomsdefs.hh
+/home/robmac/G4-install/include/Geant4/icomsdefs.hh
+G4VStateDependent.hh
+/home/robmac/G4-install/include/Geant4/G4VStateDependent.hh
+G4UIcommandStatus.hh
+/home/robmac/G4-install/include/Geant4/G4UIcommandStatus.hh
+
 /home/robmac/G4-install/include/Geant4/G4VExceptionHandler.hh
 G4Types.hh
 /home/robmac/G4-install/include/Geant4/G4Types.hh
 G4ExceptionSeverity.hh
 /home/robmac/G4-install/include/Geant4/G4ExceptionSeverity.hh
+
+/home/robmac/G4-install/include/Geant4/G4VStateDependent.hh
+G4Types.hh
+/home/robmac/G4-install/include/Geant4/G4Types.hh
+G4ApplicationState.hh
+/home/robmac/G4-install/include/Geant4/G4ApplicationState.hh
 
 /home/robmac/G4-install/include/Geant4/G4VUIshell.hh
 globals.hh
@@ -104,6 +128,10 @@ G4Exception.hh
 G4EnvironmentUtils.hh
 /home/robmac/G4-install/include/Geant4/G4EnvironmentUtils.hh
 
+/home/robmac/G4-install/include/Geant4/icomsdefs.hh
+G4Types.hh
+/home/robmac/G4-install/include/Geant4/G4Types.hh
+
 /home/robmac/G4-install/include/Geant4/templates.hh
 limits
 -
@@ -116,5 +144,7 @@ G4GlobalConfig.hh
 
 /home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-source/MinGLE.cc
 G4UIExecutive.hh
-/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-source/G4UIExecutive.hh
+-
+G4UImanager.hh
+-
 

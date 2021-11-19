@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#412625",
+        "titleBar.activeBackground": "#5B3634",
+        "titleBar.activeForeground": "#FCF9F9"
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/MinGLE/MinGLE-source"
+}
