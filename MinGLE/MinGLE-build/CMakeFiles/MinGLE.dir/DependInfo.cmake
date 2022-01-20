@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-source/MinGLE.cc" "/home/robmac/Geant4_Projects/physino-geant4/MinGLE/MinGLE-build/CMakeFiles/MinGLE.dir/MinGLE.cc.o"
+  "/home/robmac/Geant4_Projects/MinGLE-tutorial/MinGLE/MinGLE-source/MinGLE.cc" "/home/robmac/Geant4_Projects/MinGLE-tutorial/MinGLE/MinGLE-build/CMakeFiles/MinGLE.dir/MinGLE.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,6 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "G4VIS_USE_OPENGLQT"
   "G4VIS_USE_OPENGLX"
   "G4VIS_USE_OPENGLXM"
+  "G4VIS_USE_RAYTRACERX"
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NO_DEBUG"
@@ -30,14 +31,14 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/robmac/G4-install/include/Geant4"
+  "/home/robmac/G4_10_7-install/include/Geant4"
   "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtCore"
   "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
+  "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
   )
 
 # Targets to which this target links.
