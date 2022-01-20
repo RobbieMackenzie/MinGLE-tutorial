@@ -25,10 +25,10 @@ GEANT4 elements do.
 #### Stages completed and understood
 - [x] Minimum
 - [x] Batch
-- [] Run
-- [] Physics
-- [] Detector
-- [] Generator
-- [] Visualisation
-- [] Scorer
-- [] Analysis
+- [ ] Run
+- [ ] Physics
+- [ ] Detector
+- [ ] Generator
+- [ ] Visualisation
+- [ ] Scorer
+- [ ] Analysis
