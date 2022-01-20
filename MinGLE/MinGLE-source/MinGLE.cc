@@ -1,3 +1,18 @@
+#include <G4VUserDetectorConstruction.hh>
+#include <G4tgbVolumeMgr.hh>
+
+class Detector : public G4VUserDetectorConstruction
+{
+public:
+    G4VPhysicalVolume *Construct()
+    {
+        G4tgbVolumeMgr::GetInstance()->AddTextFile("detector.tg");
+        return G4tgbVolumeMgr::GetInstance()->ReadAndConstructDetector();
+    } //// This loads a detector definition from a .tg text file
+};
+
+////////////////////////////////////////////////////////////////////////////////
+
 #include <G4RunManagerFactory.hh>
 #include <G4PhysListFactory.hh>
 #include <G4UIExecutive.hh>
@@ -9,6 +24,8 @@ int main(int argc, char **argv)
 
     G4PhysListFactory factory;
     run->SetUserInitialization(factory.ReferencePhysList());
+
+    run->SetUserInitialization(new Detector);
 
     if (argc == 1)
     {

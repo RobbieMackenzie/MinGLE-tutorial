@@ -2168,6 +2168,12 @@ globals.hh
 rundefs.hh
 /home/robmac/G4_10_7-install/include/Geant4/rundefs.hh
 
+/home/robmac/G4_10_7-install/include/Geant4/G4VUserDetectorConstruction.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+vector
+-
+
 /home/robmac/G4_10_7-install/include/Geant4/G4VUserEventInformation.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/G4VUserPhysicsList.hh
@@ -2241,6 +2247,22 @@ G4Types.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4Types.hh
 iostream
 -
+
+/home/robmac/G4_10_7-install/include/Geant4/G4tgbVolumeMgr.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+string
+-
+vector
+-
+map
+-
+G4VSolid.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VSolid.hh
+G4LogicalVolume.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4LogicalVolume.hh
+G4VPhysicalVolume.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VPhysicalVolume.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/PTL/AutoLock.hh
 PTL/Threading.hh
@@ -2627,6 +2649,10 @@ G4Types.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4Types.hh
 
 /home/robmac/Geant4_Projects/MinGLE-tutorial/MinGLE/MinGLE-source/MinGLE.cc
+G4VUserDetectorConstruction.hh
+-
+G4tgbVolumeMgr.hh
+-
 G4RunManagerFactory.hh
 -
 G4PhysListFactory.hh

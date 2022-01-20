@@ -259,6 +259,7 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4VTrajectory.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUIshell.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4VUserDetectorConstruction.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserEventInformation.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserPhysicsList.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserTaskQueue.hh
@@ -267,6 +268,7 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4VoxelNavigation.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VoxelNavigation.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4tgbVolumeMgr.hh
  /home/robmac/G4_10_7-install/include/Geant4/PTL/AutoLock.hh
  /home/robmac/G4_10_7-install/include/Geant4/PTL/Globals.hh
  /home/robmac/G4_10_7-install/include/Geant4/PTL/TBBTaskGroup.hh
