@@ -25,7 +25,7 @@ GEANT4 elements do.
 #### Stages completed and understood
 - [x] Minimum
 - [x] Batch
-- [ ] Run
+- [x] Run
 - [ ] Physics
 - [ ] Detector
 - [ ] Generator
