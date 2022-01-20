@@ -21,3 +21,14 @@ GEANT4 elements do.
 > Geant4, version 10.7 or greater, installed under Linux (for multithreading)
 > Cmake 2.9 or greater
 > C++ compiler such as g++/gcc 4.9 or greater (comes with Ubuntu)
+
+#### Stages completed and understood
+- [x] Minimum
+- [x] Batch
+- [] Run
+- [] Physics
+- [] Detector
+- [] Generator
+- [] Visualisation
+- [] Scorer
+- [] Analysis
