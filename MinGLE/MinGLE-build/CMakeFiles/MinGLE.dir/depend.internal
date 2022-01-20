@@ -82,6 +82,8 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4AuxiliaryNavServices.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4BlockingList.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4BlockingList.icc
+ /home/robmac/G4_10_7-install/include/Geant4/G4Cache.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4CacheDetails.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ClassificationOfNewTrack.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4DCofThisEvent.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4DataVector.hh
@@ -116,9 +118,11 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4LogicalVolume.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4LogicalVolume.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4LorentzVector.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4MCCIndexConversionTable.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4MTBarrier.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4MTRunManager.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4Material.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4MaterialCutsCouple.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4MaterialPropertiesIndex.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4MaterialPropertiesTable.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4MaterialPropertiesTable.icc
@@ -148,6 +152,9 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4ParticleTable.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ParticleTable.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4ParticleTableIterator.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4PhysListFactory.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListHelper.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListOrderingParameter.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsModelCatalog.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsOrderedFreeVector.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsTable.hh
@@ -163,6 +170,8 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4ProcessType.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ProcessVector.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ProcessVector.icc
+ /home/robmac/G4_10_7-install/include/Geant4/G4ProductionCuts.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4ProductionCutsTable.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4Profiler.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4Profiler.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4RNGHelper.hh
@@ -199,6 +208,7 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4TaskGroup.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4TaskManager.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4TaskRunManager.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4ThreadLocalSingleton.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ThreadPool.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4Threading.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4ThreeVector.hh
@@ -232,11 +242,13 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4VExceptionHandler.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VExternalNavigation.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VHitsCollection.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4VModularPhysicsList.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VPVParameterisation.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VParticleChange.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VParticleChange.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4VPhysicalVolume.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VPhysicalVolume.icc
+ /home/robmac/G4_10_7-install/include/Geant4/G4VPhysicsConstructor.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VProcess.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VSolid.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VSolid.icc
@@ -246,7 +258,9 @@ CMakeFiles/MinGLE.dir/MinGLE.cc.o
  /home/robmac/G4_10_7-install/include/Geant4/G4VTouchable.icc
  /home/robmac/G4_10_7-install/include/Geant4/G4VTrajectory.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUIshell.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserEventInformation.hh
+ /home/robmac/G4_10_7-install/include/Geant4/G4VUserPhysicsList.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserTaskQueue.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VUserTrackInformation.hh
  /home/robmac/G4_10_7-install/include/Geant4/G4VVolumeMaterialScanner.hh

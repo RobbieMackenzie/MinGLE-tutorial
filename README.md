@@ -26,7 +26,7 @@ GEANT4 elements do.
 - [x] Minimum
 - [x] Batch
 - [x] Run
-- [ ] Physics
+- [x] Physics
 - [ ] Detector
 - [ ] Generator
 - [ ] Visualisation

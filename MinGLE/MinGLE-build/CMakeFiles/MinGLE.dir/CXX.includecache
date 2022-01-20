@@ -502,6 +502,26 @@ G4BlockingList.icc
 
 /home/robmac/G4_10_7-install/include/Geant4/G4BlockingList.icc
 
+/home/robmac/G4_10_7-install/include/Geant4/G4Cache.hh
+atomic
+-
+map
+-
+system_error
+-
+G4AutoLock.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4AutoLock.hh
+G4CacheDetails.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4CacheDetails.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4CacheDetails.hh
+G4Threading.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4Threading.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+vector
+-
+
 /home/robmac/G4_10_7-install/include/Geant4/G4ClassificationOfNewTrack.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/G4DCofThisEvent.hh
@@ -794,6 +814,14 @@ globals.hh
 CLHEP/Vector/LorentzVector.h
 -
 
+/home/robmac/G4_10_7-install/include/Geant4/G4MCCIndexConversionTable.hh
+vector
+-
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+
 /home/robmac/G4_10_7-install/include/Geant4/G4MTBarrier.hh
 G4Threading.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4Threading.hh
@@ -839,6 +867,14 @@ G4MaterialTable.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4MaterialTable.hh
 G4Threading.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4Threading.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4MaterialCutsCouple.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+G4ProductionCuts.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ProductionCuts.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/G4MaterialPropertiesIndex.hh
 vector
@@ -1114,6 +1150,34 @@ map
 G4ParticleDefinition.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4ParticleDefinition.hh
 
+/home/robmac/G4_10_7-install/include/Geant4/G4PhysListFactory.hh
+G4VModularPhysicsList.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VModularPhysicsList.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListHelper.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+vector
+-
+G4ParticleDefinition.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleDefinition.hh
+G4ParticleTable.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleTable.hh
+G4PhysicsListOrderingParameter.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+G4ThreadLocalSingleton.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ThreadLocalSingleton.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListOrderingParameter.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+
 /home/robmac/G4_10_7-install/include/Geant4/G4PhysicsModelCatalog.hh
 vector
 -
@@ -1227,6 +1291,32 @@ G4ProcessVector.icc
 /home/robmac/G4_10_7-install/include/Geant4/G4ProcessVector.icc
 
 /home/robmac/G4_10_7-install/include/Geant4/G4ProcessVector.icc
+
+/home/robmac/G4_10_7-install/include/Geant4/G4ProductionCuts.hh
+vector
+-
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+G4ParticleDefinition.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleDefinition.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4ProductionCutsTable.hh
+cmath
+-
+vector
+-
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+G4MaterialCutsCouple.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4MaterialCutsCouple.hh
+G4MCCIndexConversionTable.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4MCCIndexConversionTable.hh
+G4Region.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4Region.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/G4Profiler.hh
 G4GlobalConfig.hh
@@ -1632,6 +1722,14 @@ list
 map
 -
 
+/home/robmac/G4_10_7-install/include/Geant4/G4ThreadLocalSingleton.hh
+list
+-
+G4AutoLock.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4AutoLock.hh
+G4Cache.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4Cache.hh
+
 /home/robmac/G4_10_7-install/include/Geant4/G4ThreadPool.hh
 PTL/ThreadPool.hh
 /home/robmac/G4_10_7-install/include/Geant4/PTL/ThreadPool.hh
@@ -1894,6 +1992,22 @@ G4ThreeVector.hh
 globals.hh
 /home/robmac/G4_10_7-install/include/Geant4/globals.hh
 
+/home/robmac/G4_10_7-install/include/Geant4/G4VModularPhysicsList.hh
+vector
+-
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+rundefs.hh
+/home/robmac/G4_10_7-install/include/Geant4/rundefs.hh
+G4VPhysicsConstructor.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VPhysicsConstructor.hh
+G4VUPLSplitter.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
+G4VUserPhysicsList.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VUserPhysicsList.hh
+
 /home/robmac/G4_10_7-install/include/Geant4/G4VPVParameterisation.hh
 G4Types.hh
 /home/robmac/G4_10_7-install/include/Geant4/G4Types.hh
@@ -1939,6 +2053,22 @@ G4VPhysicalVolume.icc
 /home/robmac/G4_10_7-install/include/Geant4/G4VPhysicalVolume.icc
 
 /home/robmac/G4_10_7-install/include/Geant4/G4VPhysicalVolume.icc
+
+/home/robmac/G4_10_7-install/include/Geant4/G4VPhysicsConstructor.hh
+G4ParticleTable.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleTable.hh
+G4PhysicsListHelper.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4PhysicsListHelper.hh
+G4VUPLSplitter.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+rundefs.hh
+/home/robmac/G4_10_7-install/include/Geant4/rundefs.hh
+vector
+-
 
 /home/robmac/G4_10_7-install/include/Geant4/G4VProcess.hh
 cmath
@@ -2028,7 +2158,37 @@ G4ThreeVector.hh
 globals.hh
 /home/robmac/G4_10_7-install/include/Geant4/globals.hh
 
+/home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
+stdlib.h
+-
+G4AutoLock.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4AutoLock.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+rundefs.hh
+/home/robmac/G4_10_7-install/include/Geant4/rundefs.hh
+
 /home/robmac/G4_10_7-install/include/Geant4/G4VUserEventInformation.hh
+
+/home/robmac/G4_10_7-install/include/Geant4/G4VUserPhysicsList.hh
+G4ios.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ios.hh
+globals.hh
+/home/robmac/G4_10_7-install/include/Geant4/globals.hh
+rundefs.hh
+/home/robmac/G4_10_7-install/include/Geant4/rundefs.hh
+tls.hh
+/home/robmac/G4_10_7-install/include/Geant4/tls.hh
+G4ParticleDefinition.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleDefinition.hh
+G4ParticleTable.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ParticleTable.hh
+G4ProductionCutsTable.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4ProductionCutsTable.hh
+G4VUPLSplitter.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4VUPLSplitter.hh
+G4Threading.hh
+/home/robmac/G4_10_7-install/include/Geant4/G4Threading.hh
 
 /home/robmac/G4_10_7-install/include/Geant4/G4VUserTaskQueue.hh
 PTL/VUserTaskQueue.hh
@@ -2468,6 +2628,8 @@ G4Types.hh
 
 /home/robmac/Geant4_Projects/MinGLE-tutorial/MinGLE/MinGLE-source/MinGLE.cc
 G4RunManagerFactory.hh
+-
+G4PhysListFactory.hh
 -
 G4UIExecutive.hh
 -
