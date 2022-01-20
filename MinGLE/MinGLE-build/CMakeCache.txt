@@ -210,12 +210,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a file.
-EXPAT_INCLUDE_DIR:PATH=/usr/include
-
-//Path to a library.
-EXPAT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
-
-//Path to a file.
 FREETYPE_INCLUDE_DIR_freetype2:PATH=/usr/include/freetype2
 
 //Path to a file.
@@ -233,8 +227,8 @@ Fontconfig_INCLUDE_DIR:PATH=/usr/include
 //Path to a library.
 Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
-//The directory containing a CMake configuration file for Geant4.
-Geant4_DIR:PATH=/home/robmac/G4_10_7-install/lib/Geant4-10.7.2
+//No help, variable specified on the command line.
+Geant4_DIR:UNINITIALIZED=/home/robmac/G4_10_7-install/lib/Geant4-10.7.2
 
 //Path to a file.
 MOTIF_INCLUDE_DIR:PATH=/usr/include
@@ -295,9 +289,6 @@ Qt5PrintSupport_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport
 
 //The directory containing a CMake configuration file for Qt5Widgets.
 Qt5Widgets_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets
-
-//Build MinGLE with GEANT4 UI and Vis drivers
-WITH_GEANT4_UIVIS:BOOL=ON
 
 //Path to a file.
 X11_ICE_INCLUDE_PATH:PATH=/usr/include
@@ -489,9 +480,6 @@ XercesC_LIBRARY_DEBUG:FILEPATH=XercesC_LIBRARY_DEBUG-NOTFOUND
 XercesC_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libxerces-c.so
 
 //Path to a library.
-pkgcfg_lib_PC_EXPAT_expat:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
-
-//Path to a library.
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 
 //Path to a library.
@@ -661,12 +649,6 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: EXPAT_INCLUDE_DIR
-EXPAT_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: EXPAT_LIBRARY
-EXPAT_LIBRARY-ADVANCED:INTERNAL=1
-//Details about finding EXPAT
-FIND_PACKAGE_MESSAGE_DETAILS_EXPAT:INTERNAL=[/usr/lib/x86_64-linux-gnu/libexpat.so][/usr/include][v2.2.9(2.2.9)]
 //Details about finding Motif
 FIND_PACKAGE_MESSAGE_DETAILS_Motif:INTERNAL=[/usr/lib/x86_64-linux-gnu/libXm.so][/usr/include][v()]
 //Details about finding OpenGL
@@ -689,8 +671,6 @@ FREETYPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 Fontconfig_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Fontconfig_LIBRARY
 Fontconfig_LIBRARY-ADVANCED:INTERNAL=1
-//MODIFIED property for variable: Geant4_DIR
-Geant4_DIR-MODIFIED:INTERNAL=ON
 //ADVANCED property for variable: MOTIF_INCLUDE_DIR
 MOTIF_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MOTIF_LIBRARIES
@@ -713,41 +693,6 @@ OPENGL_glx_LIBRARY-ADVANCED:INTERNAL=1
 OPENGL_opengl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_xmesa_INCLUDE_DIR
 OPENGL_xmesa_INCLUDE_DIR-ADVANCED:INTERNAL=1
-PC_EXPAT_CFLAGS:INTERNAL=
-PC_EXPAT_CFLAGS_I:INTERNAL=
-PC_EXPAT_CFLAGS_OTHER:INTERNAL=
-PC_EXPAT_FOUND:INTERNAL=1
-PC_EXPAT_INCLUDEDIR:INTERNAL=/usr/include
-PC_EXPAT_INCLUDE_DIRS:INTERNAL=
-PC_EXPAT_LDFLAGS:INTERNAL=-lexpat
-PC_EXPAT_LDFLAGS_OTHER:INTERNAL=
-PC_EXPAT_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
-PC_EXPAT_LIBRARIES:INTERNAL=expat
-PC_EXPAT_LIBRARY_DIRS:INTERNAL=
-PC_EXPAT_LIBS:INTERNAL=
-PC_EXPAT_LIBS_L:INTERNAL=
-PC_EXPAT_LIBS_OTHER:INTERNAL=
-PC_EXPAT_LIBS_PATHS:INTERNAL=
-PC_EXPAT_MODULE_NAME:INTERNAL=expat
-PC_EXPAT_PREFIX:INTERNAL=/usr
-PC_EXPAT_STATIC_CFLAGS:INTERNAL=
-PC_EXPAT_STATIC_CFLAGS_I:INTERNAL=
-PC_EXPAT_STATIC_CFLAGS_OTHER:INTERNAL=
-PC_EXPAT_STATIC_INCLUDE_DIRS:INTERNAL=
-PC_EXPAT_STATIC_LDFLAGS:INTERNAL=-lexpat
-PC_EXPAT_STATIC_LDFLAGS_OTHER:INTERNAL=
-PC_EXPAT_STATIC_LIBDIR:INTERNAL=
-PC_EXPAT_STATIC_LIBRARIES:INTERNAL=expat
-PC_EXPAT_STATIC_LIBRARY_DIRS:INTERNAL=
-PC_EXPAT_STATIC_LIBS:INTERNAL=
-PC_EXPAT_STATIC_LIBS_L:INTERNAL=
-PC_EXPAT_STATIC_LIBS_OTHER:INTERNAL=
-PC_EXPAT_STATIC_LIBS_PATHS:INTERNAL=
-PC_EXPAT_VERSION:INTERNAL=2.2.9
-PC_EXPAT_expat_INCLUDEDIR:INTERNAL=
-PC_EXPAT_expat_LIBDIR:INTERNAL=
-PC_EXPAT_expat_PREFIX:INTERNAL=
-PC_EXPAT_expat_VERSION:INTERNAL=
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 PKG_FONTCONFIG_CFLAGS:INTERNAL=-I/usr/include/uuid;-I/usr/include/freetype2;-I/usr/include/libpng16
@@ -917,12 +862,8 @@ XercesC_INCLUDE_DIR-ADVANCED:INTERNAL=1
 XercesC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: XercesC_LIBRARY_RELEASE
 XercesC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
-__pkg_config_arguments_PC_EXPAT:INTERNAL=QUIET;expat
 __pkg_config_arguments_PKG_FONTCONFIG:INTERNAL=QUIET;fontconfig
-__pkg_config_checked_PC_EXPAT:INTERNAL=1
 __pkg_config_checked_PKG_FONTCONFIG:INTERNAL=1
-//ADVANCED property for variable: pkgcfg_lib_PC_EXPAT_expat
-pkgcfg_lib_PC_EXPAT_expat-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_fontconfig
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_freetype
